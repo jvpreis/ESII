@@ -63,7 +63,7 @@ public class AppTest extends TestCase{
 	void testCompString() {
 		App test=new App();
 		int output=test.compString("string","string");
-		assertEquals(0, output);
+		assertEquals(0, output); 
 	}
 
 	@Test
