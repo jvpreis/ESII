@@ -68,7 +68,7 @@ public class AppTest extends TestCase{
 
 	@Test
 	void testCountA() {
-		App test=new App();
+		App test=new App(); 
 		int output=test.countA("até funcionou.");
 		assertEquals(1, output);
 	}
