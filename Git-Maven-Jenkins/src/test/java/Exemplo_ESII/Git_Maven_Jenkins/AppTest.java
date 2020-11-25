@@ -68,15 +68,9 @@ public class AppTest extends TestCase{
 
 	@Test
 	void testCountA() {
-<<<<<<< HEAD
 		App test=new App(); 
 		int output=test.countA("até funcionou.");
 		assertEquals(1, output);
-=======
-		App test=new App();
-		int output=test.countA("até funcionou. Aaaaa");
-		assertEquals(2, output);
->>>>>>> refs/heads/Test-branch
 	}
     
 }
