@@ -1,14 +1,16 @@
 package Exemplo_ESII.Git_Maven_Jenkins;
 
+
 /**
- * Simple example for Software Engineering II
+ * Simple example for Software Engineering
  *@author José Reis
  */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Código para testes ES II" );
+    	System.out.println( "Código para testes ES" );
+    	
     }
     
     /**
@@ -26,14 +28,14 @@ public class App
      * @param s2 the second string
      * @return the value 0 if the argument string is equal to this string; a value less than 0 if this string is lexicographically less than the string argument; and a value greater than 0 if this string is lexicographically greater than the string argument.
      */
-	public int compString(String s1,String s2) {
+	public  int compString(String s1,String s2) {
 		return (s1.compareTo(s2));
 	}
 
 	/**
      * Counts the number of chars "a" or "A" in a string
      * @param palavra the string
-     * @return the number of "a" or "A" in the string
+     * @return the number of "a" and "A" in the string
      */
 	public int countA(String palavra) {
 		int count = 0;
