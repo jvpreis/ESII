@@ -45,7 +45,7 @@ public class App
 			}
 			
 			if (count > 20)
-				count = 1000000;
+				count = 1000;
 			else
 				count = count;
 		}
