@@ -45,11 +45,7 @@ public class App
 			}
 			
 			if (count > 20)
-<<<<<<< HEAD
 				count = 100;
-=======
-				count = 100;			
->>>>>>> refs/heads/branch-aula
 			else
 				count = count;
 		}
