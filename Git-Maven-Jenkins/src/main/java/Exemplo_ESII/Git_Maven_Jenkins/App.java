@@ -1,5 +1,6 @@
 package Exemplo_ESII.Git_Maven_Jenkins;
 
+import javax.swing.JFrame;
 
 /**
  * Simple example for Software Engineering
@@ -11,9 +12,19 @@ public class App
     {
     	System.out.println("Código para testes ES");
     	
+    	pieChart();
+ 
     }
     
-    /**
+    private static void pieChart() {
+        JFrame frame = new JFrame();
+        frame.getContentPane().add(new MyComponent());
+        frame.setSize(300, 200);
+        frame.setVisible(true);
+		
+	}
+
+	/**
      * Calculates the square of a number
      * @param x the incoming number
      * @return the Square of the number
@@ -44,7 +55,7 @@ public class App
 				count++;
 			}
 			
-			if (count > 20)
+			if (count > 10)
 				count = 100;
 			else
 				count = count;
