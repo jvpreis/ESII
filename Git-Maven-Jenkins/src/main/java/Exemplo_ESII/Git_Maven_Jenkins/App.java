@@ -19,7 +19,7 @@ public class App
     private static void pieChart() {
         JFrame frame = new JFrame();
         frame.getContentPane().add(new MyComponent());
-        frame.setSize(300, 200);
+        frame.setSize(300, 300);
         frame.setVisible(true);
 		
 	}
