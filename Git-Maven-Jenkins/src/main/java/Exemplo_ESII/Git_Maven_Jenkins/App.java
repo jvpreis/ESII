@@ -53,8 +53,7 @@ public class App
 		for (int i = 0; i < palavra.length(); i++) {
 			if (palavra.charAt(i) == 'a' || palavra.charAt(i) == 'A') {
 				count++;
-			}
-			
+			}			
 			
 			if (count > 20)
 				count = 100;

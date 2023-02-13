@@ -8,6 +8,5 @@ public class Slice {
 	   public Slice(double value, Color color) {  
 	      this.value = value;
 	      this.color = color;
-	   }
-	  
+	   }	  
 }
