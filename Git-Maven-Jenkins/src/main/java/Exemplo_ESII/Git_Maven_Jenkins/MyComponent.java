@@ -20,6 +20,7 @@ public class MyComponent extends JComponent {
 			      for (int i = 0; i < slices.length; i++) {
 			         total += slices[i].value;
 			      }
+			      
 			      double curValue = 0.0D; 
 			      int startAngle = 0;
 			      for (int i = 0; i < slices.length; i++) {
