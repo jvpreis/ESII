@@ -29,7 +29,7 @@ public class MyComponent extends JComponent {
 			         g.setColor(slices[i].color);
 			         g.fillArc(area.x, area.y, area.width, area.height, startAngle, arcAngle);
 			         curValue += slices[i].value;
-			         
+			         curValue += slices[i].value;			  
 			      }			      
 			   }
 			}
