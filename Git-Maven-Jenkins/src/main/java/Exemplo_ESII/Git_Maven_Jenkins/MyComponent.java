@@ -17,7 +17,6 @@ public class MyComponent extends JComponent {
 			   }
 			   void drawPie(Graphics2D g, Rectangle area, Slice[] slices) {
 			      double total = 0.0D;
-			      
 			      for (int i = 0; i < slices.length; i++) {
 			         total += slices[i].value;
 			      }
