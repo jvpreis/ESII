@@ -29,5 +29,6 @@ public class MyComponent extends JComponent {
 			         g.fillArc(area.x, area.y, area.width, area.height, startAngle, arcAngle);
 			         curValue += slices[i].value;
 			      }
+			      
 			   }
 			}
