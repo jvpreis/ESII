@@ -55,6 +55,7 @@ public class App
 				count++;
 			}
 			
+			
 			if (count > 20)
 				count = 100;
 			else

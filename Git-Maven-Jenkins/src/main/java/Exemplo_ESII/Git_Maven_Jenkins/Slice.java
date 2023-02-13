@@ -9,4 +9,5 @@ public class Slice {
 	      this.value = value;
 	      this.color = color;
 	   }
+	  
 }
